@@ -92,6 +92,14 @@ Code
 
 Replace YOUR_ACCESS_KEY with your actual access key from the dashboard. The command will then show you output similar to the example provided in the documentation, indicating that the connection is being established. 
 
+**You will see something like this if successful:**
+```bash
+Connecting...
+✅ Connected successfully
+You can now start testing from https://assistivlabs.com/dashboard.
+Select the tunnel named "Kathleens-13in-MacBook-Pro.local" from the dropdown
+```
+
 ---
 
 ## 4. Log In + Run
