@@ -52,10 +52,20 @@ npm -v
 curl -L https://assistivlabs.com/cli/mac.zip -o mac.zip && unzip mac.zip && rm mac.zip && ./AssistivTunnel --version && echo 'Install complete!'.
 ```
 
+Verify AssistiveLabs version
+```bash
+./AssistivTunnel --version
+```
+
 ### Linux
 
 ```bash
 curl -L https://assistivlabs.com/cli/linux.zip -o linux.zip && unzip linux.zip && rm linux.zip && ./AssistivTunnel --version && echo 'Install complete!'.
+```
+
+Verify AssistiveLabs version
+```bash
+./AssistivTunnel --version
 ```
 
 ### Windows
@@ -71,6 +81,16 @@ Verify:
 ```bash
 assistivtunnel --version
 ```
+
+### Connect to the Tunnel
+Go to your [AssistivLabs dashboard](https://assistivlabs.com/dashboard) to get your personal access ke (Reveal the key). Then, run the command in your terminal to start the tunnel connection: 
+Code
+
+```bash
+./AssistivTunnel --accessKey YOUR_ACCESS_KEY
+```
+
+Replace YOUR_ACCESS_KEY with your actual access key from the dashboard. The command will then show you output similar to the example provided in the documentation, indicating that the connection is being established. 
 
 ---
 
