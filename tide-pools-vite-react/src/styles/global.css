@@ -1,0 +1,16 @@
+:root{
+  --focus: #0b5fff;
+  --text: #0b1221;
+  --bg: #ffffff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.5}
+a.skipLink{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden}
+a.skipLink:focus{left:1rem;top:1rem;width:auto;height:auto;background:#fff;border:2px solid var(--focus);padding:.5rem 1rem;border-radius:.5rem}
+nav a{margin-right:.75rem}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+h1:focus{outline-offset:4px}
+main{padding:1rem}
+header,footer{padding:1rem;background:#f6f8ff}
+.container{max-width:960px;margin:0 auto}
+button{font:inherit}

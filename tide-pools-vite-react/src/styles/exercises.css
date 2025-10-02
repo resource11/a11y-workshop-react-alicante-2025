@@ -1,0 +1,134 @@
+/* Exercise styling for accessibility workshop */
+
+.page-header {
+  background: #f6f8ff;
+  padding: 2rem 1rem;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.exercise-intro {
+  font-size: 1.125rem;
+  margin: 1rem 0 0 0;
+  color: #4a5568;
+  max-width: 60ch;
+}
+
+.exercise {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.broken-implementation {
+  background: #fff5f5;
+  border: 2px solid #feb2b2;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+}
+
+.problems {
+  background: #fffbeb;
+  border: 2px solid #f59e0b;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+}
+
+.assignment {
+  background: #ecfdf5;
+  border: 2px solid #10b981;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+}
+
+.testing-instructions {
+  background: #eff6ff;
+  border: 2px solid #3b82f6;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+}
+
+.eaa-info {
+  background: #faf5ff;
+  border: 2px solid #8b5cf6;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+}
+
+/* Typography classes used in exercises */
+.big {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.medium {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem 0;
+}
+
+.small {
+  font-size: 1.125rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+}
+
+.problem-title,
+.assignment-title,
+.testing-title,
+.eaa-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+/* Interactive elements styling */
+.link-style {
+  color: #2563eb;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link-style:hover {
+  color: #1d4ed8;
+}
+
+.button-style {
+  background: #3b82f6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font: inherit;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+.button-style:hover {
+  background: #2563eb;
+}
+
+/* Footer styling */
+.page-footer {
+  background: #f6f8ff;
+  padding: 2rem 1rem;
+  border-top: 2px solid #e2e8f0;
+  margin-top: 2rem;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.copyright {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: #6b7280;
+}

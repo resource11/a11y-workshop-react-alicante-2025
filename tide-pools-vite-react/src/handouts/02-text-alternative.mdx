@@ -1,0 +1,37 @@
+# Exercise 02 – Text Alternatives (Images, Icons, Icon Buttons)
+⏱ ~20 minutes  
+📖 EAA Category: Perceivable
+
+📂 **Repo Reminder:**
+- Branch: `exercise/02` → work here
+- Handout: `handouts/exercises/02-text-alternatives.mdx`
+- Storybook: `Exercises/02 – Text Alternatives`
+
+
+## Concepts
+- Provide meaningful `alt` for informative images.
+- Decorative images should have empty alt (`alt=""`) or `aria-hidden="true"`.
+- Icon-only buttons must have an accessible name (e.g., `aria-label="Search"`).
+
+## 🛠 Hands-On (~12 min)
+- Add `alt` text to images; use `alt=""` for purely decorative ones.
+- For SVG icons inside buttons, add `aria-label` or visually hidden text.
+- Ensure linked images have useful link text or `aria-label` on the link.
+
+### Example (fix icon-only button)
+```tsx
+export function IconSearchFixed(){
+  return (
+    <button aria-label="Search">
+      <svg aria-hidden="true" width="16" height="16"><circle cx="7" cy="7" r="6"/></svg>
+    </button>
+  );
+}
+```
+
+## ✅ Verify (~8 min)
+- In Storybook controls, toggle between: missing alt / empty alt / descriptive alt.
+- Use Accessibility panel to check "Accessible name" on the icon button.
+
+---
+➡️ **Next up:** checkout `exercise/03` and open `handouts/exercises/03-contrast-focus.mdx`

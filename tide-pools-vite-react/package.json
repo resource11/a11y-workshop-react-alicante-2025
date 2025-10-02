@@ -1,0 +1,53 @@
+{
+  "name": "tide-pools-app",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build:storybook": "storybook build",
+    "format": "prettier --list-different --write \"**/*.{ts,tsx,md,js,jsx}\"",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix",
+    "test": "echo \"(tests placeholder)\" && exit 0",
+    "test:a11y": "playwright test -c playwright.config.ts",
+    "test:stories": "storybook test --watch",
+    "security:check": "npm audit --audit-level=high",
+    "security:fix": "npm audit fix --audit-level=high",
+    "outdated": "npm outdated"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "6.26.2"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "@types/react": "18.2.74",
+    "@types/react-dom": "18.2.22",
+    "vite": "5.4.10",
+    "@vitejs/plugin-react": "4.3.1",
+    "storybook": "8.5.1",
+    "@storybook/react-vite": "8.5.1",
+    "@storybook/addon-essentials": "8.5.1",
+    "@storybook/addon-a11y": "8.5.1",
+    "@storybook/test-runner": "0.19.1",
+    "playwright": "1.47.2",
+    "prettier": "3.2.5",
+    "axe-playwright": "2.0.1",
+    "eslint": "8.57.0",
+    "@typescript-eslint/parser": "7.18.0",
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "eslint-plugin-react": "7.35.2",
+    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-jsx-a11y": "6.10.0",
+    "eslint-plugin-storybook": "0.9.0",
+    "eslint-config-prettier": "9.1.0"
+  }
+}
