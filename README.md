@@ -38,7 +38,7 @@ npm -v
 
 ## 2. AssistivLabs Account
 
-- Sign up: [assistivlabs.com/signup](https://assistivlabs.com/sign-up)  
+- Sign up: [assistivlabs.com/sign-up](https://assistivlabs.com/sign-up)  
 - Use the **Free Trial**
 - Select: NVDA, Version 2025.3, Chrome version 140, AssistivTunnel Disabled
 
