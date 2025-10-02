@@ -2,8 +2,8 @@ import React, { useRef, useEffect } from "react";
 import PropTypes from "prop-types";
 import clsx from "clsx";
 import Button from "./Button";
-import styles from "./css/styles.module.css";
-import popover from "./css/popover.module.css";
+import styles from "./styles/styles.module.css";
+import popover from "../styles/popover.module.css";
 
 /**
  * A control that shows or hides a container of contents.
@@ -41,7 +41,7 @@ export const Popover = ({
   const popoverClassNames = clsx(styles.dwContainer, styles.popoverWrapper);
   const popoverWrapperClassNames = clsx(
     styles.dwWrapper,
-    styles.popoverWrapper,
+    styles.popoverWrapper
   );
 
   return (

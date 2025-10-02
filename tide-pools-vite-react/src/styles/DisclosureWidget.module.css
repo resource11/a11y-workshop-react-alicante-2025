@@ -1,0 +1,142 @@
+@import "./common/variables.css";
+
+[hidden] {
+  display: none;
+}
+
+/* Disclosure general styles */
+.disclosureButton {
+  height: 2rem;
+  width: 2rem;
+  min-width: auto;
+  background: white;
+  border: 0.0625em solid var(--caribbean-blue);
+  color: var(--caribbean-blue);
+}
+
+.disclosureNavList,
+.menuLinkList {
+  display: flex;
+  flex-direction: column;
+}
+
+.disclosureNavListItem,
+.menuLinkListItem {
+  margin: 0;
+  padding: 0;
+  border-bottom: 0.0313em var(--grey-100) solid;
+}
+
+.disclosureNavListItem > a,
+.menuLinkListItem > a,
+.floatingContainer > li > a {
+  display: block;
+  padding: 0.5rem;
+  min-width: 100%;
+}
+
+.disclosureNavListItem:last-of-type,
+.menuLinkListItem:last-of-type {
+  border-bottom: none;
+}
+
+.disclosureNavListItem > button,
+.menuLinkListItem > button {
+  min-width: 100%;
+  border-radius: inherit;
+}
+
+.disclosureNavListItem > button:hover,
+.disclosureNavListItem > button:focus,
+.menuLinkListItem > button:hover,
+.menuLinkListItem > button:focus {
+  color: var(--text-reverse);
+  cursor: pointer;
+  background-color: var(--caribbean-blue-muted-300);
+}
+
+.btnIcon {
+  margin: 0;
+}
+
+.floatingContainer {
+  position: absolute;
+  background: white;
+  border: 0.0625em var(--grey-200) solid;
+  box-shadow: 0 0.0625rem 0.1875rem 0 rgba(0, 0, 0, 0.25);
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  min-width: 12.5rem;
+  list-style: none;
+}
+
+.floatingContainer > li {
+  padding-left: 0;
+}
+
+/* ToggleNav Pattern */
+.chooseFruitButton {
+  border: 0.063em solid var(--caribbean-blue);
+  color: var(--caribbean-blue);
+}
+.chooseFruitButton:hover {
+  color: var(--text-reverse);
+}
+
+.chooseFruitButton:focus {
+  color: var(--text-reverse);
+}
+
+.chooseFruitButton[aria-expanded="true"] {
+  background-color: var(--caribbean-blue-muted-200);
+  border-color: var(--grey-800);
+  color: var(--text-reverse);
+}
+
+/* Toggletip Pattern  */
+.toggleTipButton {
+  border-radius: 50%;
+  font-size: 0.875rem;
+}
+
+.toggleTipButton:hover,
+.toggleTipButton:focus {
+  border: 0.0625em solid var(--grey-800);
+  color: var(--text-reverse);
+}
+
+.toggleTipButton:active {
+  border: 0.0625em solid var(--grey-800);
+  color: var(--grey-800);
+}
+
+.toggleTipButton[aria-expanded="true"] {
+  background-color: var(--grey-800);
+  color: var(--text-reverse);
+}
+
+.toggleTipContainer {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: left;
+}
+
+/* ToggleSearchMenu Pattern */
+.toggleSearchButton {
+  color: var(--text-reverse);
+  height: 2.5rem;
+  width: 2.5rem;
+  background: var(--grad-grey-500);
+  border: 0.125em solid var(--grey-800);
+}
+
+.toggleSearchButton:focus,
+.toggleSearchButton:hover {
+  border: 0.125em solid var(--grey-300);
+  color: var(--text-reverse);
+}
+
+.toggleSearchButton[aria-expanded="true"] {
+  background-color: var(--grey-300);
+}

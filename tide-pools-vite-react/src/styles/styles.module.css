@@ -1,0 +1,104 @@
+@import "./common/variables.css";
+
+/* Globals */
+@import "./common/main.css";
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.disclosureGrid {
+  position: relative;
+  min-height: calc(100vw - 4.75rem);
+  margin: 1rem 3rem;
+  padding: 1rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  background-color: white;
+}
+
+.disclosureGrid > * {
+  align-content: center;
+}
+
+.dwWrapper {
+  margin: 0 2rem;
+}
+
+.dwContainer {
+  text-align: left;
+}
+
+.root {
+  background: var(--grad-rad-red-purple);
+  background-clip: border-box;
+  border: 0.063em solid transparent;
+  border-radius: 0.25em;
+  box-shadow: none;
+  color: var(--text-reverse);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1.125rem;
+  height: 3rem;
+  max-width: 100%;
+  min-width: 11.25rem;
+  outline: none;
+  padding: 0 0.5rem;
+  position: relative;
+  transition:
+    color 0.2s,
+    border-color 0.2s;
+  transition-timing-function: ease;
+}
+
+.root:-moz-focusring {
+  outline: none;
+}
+
+.root:hover {
+  background: var(--grad-rad-blue-violet);
+}
+
+.root:focus {
+  background: #010e26;
+}
+
+.root:active {
+  background: var(--grad-rad-red-purple-darkest);
+}
+
+.root:disabled {
+  background: var(--grey-300);
+  border-color: var(--grey-400);
+  color: var(--grey-500);
+  pointer-events: none;
+}
+
+.btnContentWrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  margin-left: 0.5rem;
+}
+
+.small {
+  font-size: var(--s0);
+  height: 2.5rem;
+  min-width: 7.5rem;
+  line-height: 1;
+
+  & .icon {
+    margin-left: 0.25rem;
+  }
+}
+
+.large {
+  font-size: 1.25rem;
+  height: 3.5rem;
+  min-width: 11.25rem;
+}

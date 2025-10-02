@@ -7,7 +7,7 @@ export default function Exercise01() {
     <div>
       {/* Broken: Should be <header> but using div */}
       <div className="page-header">
-        <div className="big">Exercise 1: Semantic HTML</div>
+        <h1 className="big">Exercise 1: Semantic HTML</h1>
         <p className="exercise-intro">
           The foundation of web accessibility starts with semantic HTML. Screen
           readers and other assistive technologies rely on proper markup to
