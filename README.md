@@ -46,10 +46,16 @@ npm -v
 
 ## 3. Install AssistivTunnel
 
-### macOS / Linux
+### macOS
 
 ```bash
 curl -L https://assistivlabs.com/cli/mac.zip -o mac.zip && unzip mac.zip && rm mac.zip && ./AssistivTunnel --version && echo 'Install complete!'.
+```
+
+### Linux
+
+```bash
+curl -L https://assistivlabs.com/cli/linux.zip -o linux.zip && unzip linux.zip && rm linux.zip && ./AssistivTunnel --version && echo 'Install complete!'.
 ```
 
 ### Windows
