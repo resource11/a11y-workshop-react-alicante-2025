@@ -49,8 +49,7 @@ npm -v
 ### macOS / Linux
 
 ```bash
-brew tap assistivlabs/tap
-brew install assistivlabs/tunnel
+curl -L https://assistivlabs.com/cli/mac.zip -o mac.zip && unzip mac.zip && rm mac.zip && ./AssistivTunnel --version && echo 'Install complete!'.
 ```
 
 ### Windows
